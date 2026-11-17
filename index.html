@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Two sites share a similar name. Did you mean Any Number of Times, free number games for young learners, or Number Fun, maths songs and resources for primary schools?">
+<title>Did you mean&hellip;?</title>
+<style>
+  :root{color-scheme:light dark}
+  *{box-sizing:border-box;margin:0}
+  body{
+    min-height:100svh;display:flex;align-items:center;justify-content:center;
+    font-family:system-ui,-apple-system,"Segoe UI",sans-serif;
+    background:#f4f6f8;color:#1c2b3a;padding:24px;
+  }
+  main{max-width:420px;width:100%;text-align:center}
+  h1{font-size:1.25rem;font-weight:600;margin-bottom:24px;opacity:.75}
+  a.card{
+    display:block;text-decoration:none;color:inherit;
+    background:#fff;border:1px solid #d9e2ea;border-radius:16px;
+    padding:22px 20px;margin-bottom:14px;
+    transition:border-color .3s, box-shadow .3s;
+  }
+  a.card:hover{border-color:#3d5f84;box-shadow:0 4px 18px rgba(61,95,132,.15)}
+  a.card .name{font-size:1.1rem;font-weight:600;display:block;margin-bottom:6px}
+  a.card .what{font-size:.85rem;opacity:.65;display:block}
+  @media (prefers-color-scheme:dark){
+    body{background:#141a20;color:#e8edf2}
+    a.card{background:#1c242d;border-color:#2c3a47}
+  }
+</style>
+</head>
+<body>
+<main>
+  <h1>Did you mean&hellip;?</h1>
+  <a class="card" href="https://anynumberoftimes.com">
+    <span class="name">Any Number of Times</span>
+    <span class="what">Free shape &amp; number games for young learners</span>
+  </a>
+  <a class="card" href="https://numberfun.com">
+    <span class="name">Number Fun</span>
+    <span class="what">Maths songs &amp; resources for primary schools</span>
+  </a>
+</main>
+</body>
+</html>
